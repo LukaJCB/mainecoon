@@ -8,7 +8,9 @@ position: 4
 
 ## Type classes
 
+
 Currently there are four type classes defined in mainecoon: [FunctorK](#functorK), [InvariantK](#invariantK), [SemigroupalK](#semigroupalK), and [ApplyK](#applyK). They can be deemed as somewhat higher kinded versions of the corresponding type classes in cats.
+
 
 
 ### <a id="functorK" href="#functorK"></a>`FunctorK` 
@@ -35,6 +37,7 @@ For tagless final algebras that
 2. whose effect `F` appears only in the covariant position for **all members**,
 
 instance of `SemigroupalK` can be auto generated through `autoSemigroupalK` annotation.
+
 
 ### <a id="applyK" href="#applyK"></a>`ApplyK`
 ```
